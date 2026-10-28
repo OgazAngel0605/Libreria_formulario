@@ -1,0 +1,82 @@
+.colF {
+	background-color: #F0F0F0;
+}
+
+.nave {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	padding-right: 60%;
+	gap: 2.5%;
+}
+
+.colu {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: center;
+	padding: 2%;
+	white-space: nowrap;
+}
+
+
+.ima {
+	background-image: url("libros.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.line {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	gap: 150px;
+}
+.bt {
+	color: #6f7063ff;
+	text-decoration: none;
+	padding-left: 6%;
+	border-radius: 10px;
+}
+
+.bt:hover{
+	background-color: #cfcfcf;
+	width: 120%;
+}
+
+h3 {
+	color: #66033C;
+	cursor: pointer;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	text-align: left;
+	align-items: center;
+	padding: 2%;
+	white-space: nowrap;
+}
+
+.na2 {
+	display: flex;
+	justify-content: space-between;
+	gap: 10%;
+}
+
+.for {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	background-color: white;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 10px;
+	align-items: center;
+	text-align: center;
+}
+
+h1 {
+	color: #66033C;
+}
